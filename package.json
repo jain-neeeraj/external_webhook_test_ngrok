@@ -4,7 +4,7 @@
   "description": "Sample code to show the use of ngrok in testing the external web hooks",
   "main": "index.js",
   "scripts": {
-    "test": "mocha  tests"
+    "test": "mocha --timeout=10000 tests"
   },
   "keywords": [],
   "author": "",
