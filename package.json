@@ -1,0 +1,20 @@
+{
+  "name": "external_webhook_test_ngrok",
+  "version": "1.0.0",
+  "description": "Sample code to show the use of ngrok in testing the external web hooks",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha  tests"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "chai": "^4.3.4",
+    "express": "^4.17.1",
+    "mocha": "^9.0.2",
+    "mochawesome": "^6.2.2",
+    "ngrok": "^4.0.1"
+  }
+}
